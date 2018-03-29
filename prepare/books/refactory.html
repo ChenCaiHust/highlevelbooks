@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/mofifycode.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>修改代码的艺术</h2>
+		  <p>[美] Michael C. Feathers 著；侯伯薇 译 </p>
+		  <p>提到次数 145</p>
+		  <p>修改代码的集大成之作.</p>
+		  <p>本书是继《重构》和《重构与模式》之后探讨修改代码技术的又一里程碑式的著作，而且从广度和深度上都超过了前两部经典。书中不仅讲述了面向对象语言(Java、C#和C++)代码，也有专章讨论C这样的过程式语言。作者将理解、测试和修改代码的原理、技术和最新工具(自动化重构工具、单元测试框架、仿对象、集成测试框架等)与解依赖技术及大量开发和设计优秀代码的原则、最佳实践相结合，许多内容非常深入，而且常常发前人所未发。书中处处体现出作者独到的洞察力，以及多年开发和指导软件项目所积累的丰富经验和深厚功力。通过这部集大成之作，你不仅能掌握最顶尖的修改代码技术，还可以大大提高对代码和软件开发的领悟力。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgJTGF8TAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIXAVYfXRQdS0IJRmtDAkhHNR5YC2FQdSphD0pgZ11QXl51Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBRE1gTChQHXB5rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBxQEUR1aCltXWwg%3D">京东</a>   <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23486630">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/refactoring.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>重构 改善既有代码的设计</h2>
+		  <p>[美] 马丁·福勒（Martin Fowler） 著；熊节 译 </p>
+		  <p>提到次数 52</p>
+		  <p>软件开发的不朽经典</p>
+		  <p>生动阐述重构原理和具体做法</p>
+		  <p>普通程序员进阶到编程高手必须修炼的秘笈</p>
+		  <p>重构，一言以蔽之，就是在不改变外部行为的前提下，有条不紊地改善代码。多年前，正是本书原版的出版，使重构终于从编程高手们的小圈子走出，成为众多普通程序员日常开发工作中不可或缺的一部分。本书也因此成为与《设计模式》齐名的经典著作，被译为中、德、俄、日等众多语言，在世界范围内畅销不衰。</p>
+		  <p>本书凝聚了软件开发社区专家多年摸索而获得的宝贵经验，拥有不因时光流逝而磨灭的价值。今天，无论是重构本身，业界对重构的理解，还是开发工具对重构的支持力度，都与本书*初出版时不可同日而语，但书中所蕴涵的意味和精华，依然值得反复咀嚼，而且往往能够常读常新。 </p></p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgFWEl0QAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIUBFwdXhQdS0IJRmsPBk1eCUciXGd0Uy1LDW5FWg40BSZlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18XBhoHXBNrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBBEOUx5aCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23734636">当当</a></p>
+		  </div>
+	</div>
+	
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

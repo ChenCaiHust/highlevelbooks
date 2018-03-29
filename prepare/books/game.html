@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/game-engine-architecture.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>游戏引擎架构</h2>
+		  <p>[美] Jason Gregory 著；叶劲峰 译 </p>
+		  <p>提到次数 12</p>
+		  <p>《游戏引擎架构》同时涵盖游戏引擎软件开发的理论及实践，并对多方面的题目进行探讨。《游戏引擎架构》讨论到的概念及技巧实际应用于现实中的游戏工作室，如艺电及顽皮狗。虽然书中采用的例子通常依据一些专门的技术，但是讨论范围远超于某个引擎或API。文中的参考及引用也非常有用，可让读者继续深入游戏开发过程的任何特定方向。</p>
+　　	  <p>《游戏引擎架构》为一个大学程度的游戏编程课程而编写，但也适合软件工程师、业余爱好者、自学游戏程序员，以及游戏产业的从业人员。通过阅读《游戏引擎架构》，资历较浅的游戏工程师可以巩固他们所学的游戏技术及引擎架构的知识，专注某一领域的资深程序员也能从《游戏引擎架构》一书更为全面的介绍中获益。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgVdElsWAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIQD1wbWBQdS0IJRmscanRSMWkDVmJmXyxCCRxJe0FXQTpTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1McAxMAUR5rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVABoOVRhaCltXWwg%3D">京东</a>    <a  class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23412636">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/programming-game-al-by-example.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>游戏人工智能编程案例精粹（修订版）</h2>
+		  <p>[美] Mat Buckland 著；罗岱 等 译 </p>
+		  <p>提到次数 12</p>
+		  <p>《游戏人工智能编程案例精粹(修订版)》是游戏人工智能方面的经典之作，畅销多年。它展示了如何在游戏中利用专业人工智能技术，并针对实际困难问题，给出了强有力的解决方法。</p>
+　　	  <p>《游戏人工智能编程案例精粹(修订版)》主要讲述如何使游戏中的角色具有智能的技术。本书首先介绍游戏角色的基本属性(包括速度、质量等物理属性)及常用数学方法。接着，深入探讨游戏智能体状态机的实现。通过简单足球游戏实例，本书给出用状态机实现游戏AI的例子。在图论部分，本书详细介绍图在游戏中的用途及各种不同的图搜索算法，并用一章的篇幅讨论了游戏中路径规划是如何完成的。此外，本书还对目标驱动的智能体的实现、触发器与模糊逻辑在游戏中的运用进行了讨论。为使智能体行为更加丰富、灵活、易于实现，本书还介绍了游戏脚本语言的优点，并以Lua脚本语言为例进行了说明。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgZdGVoSAiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQITD1caXBUdS0IJRmt3ZkF8FVgsV2B1YRJ%2BEGlRcAEyfEVDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1McBxUAXBJrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVAxoFVBxbCltXWwg%3D">京东</a>   <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22872362">当当</a></p>
+		  </div>
+	</div>
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

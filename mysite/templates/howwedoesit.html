@@ -1,0 +1,20 @@
+{% load static %}
+<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="{% static "img/erweima.jpg" %}" class="img-responsive"></p>
+		</div>
+	</div>
+</div>

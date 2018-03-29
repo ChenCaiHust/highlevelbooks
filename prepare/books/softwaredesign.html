@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/domain-driven-design.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>领域驱动设计 软件核心复杂性应对之道</h2>
+		  <p>[美] Eric Evans 著；赵俐，盛海艳，刘霞 译 </p>
+		  <p>提到次数 47</p>
+		  <p>“领域驱动设计之父”经典著作 </p>
+		  <p>众多声名显赫软件大师鼎力推荐 </p>
+		  <p>凝聚领域建模专家数十年的实战经验 </p>
+		  <p>深度剖析构建高质量复杂系统的核心技术 </p>
+		  <p>领域模型使开发人员可以表达丰富的软件功能需求，由此实现的软件可以满足用户真正的需要，因此被公认为是软件设计的关键所在，其重要性显而易见。但讲述如何将领域模型用于软件开发过程的杰出的实用资料却不多见。本书正是这一领域声名显赫的作品，受到众多业界大师的赞美和推介，广受读者好评。</p>
+		  <p>要通过创建领域模型来加速复杂的软件开发，就需要利用大量实践和标准模式在开发团队中形成统一的交流语言；不但要重构代码，而且要重构代码底层的模型；同时采取反复迭代的敏捷开发方法，深入理解领域特点，促进领域专家与程序员的良好沟通。针对这些内容，本书结合真实项目，系统地介绍了领域驱动开发的目标、意义和方法，充分讨论了复杂系统的建模与设计问题。</p>
+		  <p>本书将指导面向对象开发人员、系统分析人员和设计人员合理地组织工作，各有侧重、彼此协作，有条不紊地进行复杂系统的开发，帮助他们建立丰富而实用的领域模型，并由此创建长期适用的优质软件。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEg9SG1oXCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIaAFUaWRwdS0IJRmtmallmDRweC2d3WxdMLGIKYHAUAS9DDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18SAhYEVxJrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVChUHVBlSCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23981385">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/growing-object-oriented-software.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>测试驱动的面向对象软件开发</h2>
+		  <p>[美] 弗里曼，[美] 普雷斯 著；王海鹏 等 译 </p>
+		  <p>提到次数 22</p>
+		  <p>《测试驱动的面向对象软件开发》对于更快交付更好的软件，测试驱动开发（TDD）现在是一种已经确立的技术。TDD基于一个简单的思想：在写产品代码之前先写它的测试代码。但是，这个“简单”的思想需要一些技能和判断才能做得好。现在有了一本TDD实践指南。让您深入理解那些基本概念，并向您展示了如何让测试来引导开发，“培育”出一致的、可靠的。可维护的软件。</p>
+　　	  <p>作者描述了他们使用的过程，努力实现的设计原则。以及完成工作的一些工具。通过一个详细实现的例子，您可以看到TDD如何在各个层次上工作，如何利用测试来驱动特征开发和代码的面向对象结构，如何利用模拟对象来发现并描述对象之间的关系。在这个过程中。《测试驱动的面向对象软件开发》系统地讨论了开发团队在使用TDD时遇到的挑战——从过程中集成TDD到测试最难的特征。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZSGlgQCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTAFQYXhwdS0IJRmteeUR4XWsgYWFBAAYSPUtUcFw0AThDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MSAxQOVB5rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxUGVh5SCltXWwg%3D">京东</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/head-first-object-oriented-analysis-design.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>深入浅出面向对象分析与设计（中文版）</h2>
+		  <p>[美] 麦克劳克林（Mclaughlin B.D） 著；OReilly Taiwan公司 译  </p>
+		  <p>提到次数 18</p>
+		  <p>你是否早已对市面上那些只有在成为专家以后读起来才有感觉的OOA&D书籍感到厌倦？你可能早就听说过OOA&D书籍能帮助你写出伟大的软件——让老板高兴、客户满意的软件。</p>
+　　	  <p>但如何办到呢？</p>
+　　	  <p>《深入浅出面向对象分析与设计》将告诉你如何分析、设计以及撰写真正面向对象的软件：容易重用、好维护、可扩展的软件；不再使你心碎的软件；让你增添新功能而不会破坏旧机制的软件。在本书中，你将学到：使用诸如封装(encapsulation)与委派(delegation)之类的OO原则建立灵活的应用程序；使用开闭原则(Open-Closed Principle)与单一职责原则(Single-Responsibilitv Principle)提升程序的重用性；学习如何将OO原则、设计模式及各种开发方法通通整合到OOA&D项目的生命周期里；运用UML、用例及用例图来确保所有利害关系人都能清楚地进行沟通，协助你交付正确的软件，达到每个人的要求。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZQGF4VBSJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTAlYeWxIdS0IJRmthRUIEHlwvSmAWZVVSP2teG1UzGQ51Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MSABoFVRxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxcEUBtcCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20474569">当当</a></p>
+		  </div>
+	</div>
+	
+	
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

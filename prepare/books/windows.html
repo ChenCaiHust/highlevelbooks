@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/programming-windows.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Windows程序设计</h2>
+		  <p>[美] Charles Petzold 著；张大威，汤铭，段洪秀 译 </p>
+		  <p>提到次数 52</p>
+		  <p>作为Windows开发圣经的新版本，《Windows程序设计 第6版 微软技术丛书》的主题是Windows 8应用程序开发，全面介绍Windows程序设计所涉及的细枝末节，旨在帮助读者从高屋见瓴的角度建立完整的知识体系，为以后的职业生涯奠定良好的基础。全书共两部分19章。第1～12章着重介绍基础知识。第13~19章介绍侧重于Windows 8平台开发的触摸、位图、富文本、打印、富文本、GPS/传感器和手写笔等方面。 本书适合任何层次的Windows程序员阅读和参考，是帮助他们梳理和建立Windows知识体系的理想读物。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgFWG1gRBSJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIUBFUYXxIdS0IJRmtrXWZBPmk8V2cIX1JzPW8DZm8MRS5lDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18WChoAXRprEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBBEHVh9cCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23729372">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/concurrent-programming-on-windows.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Windows并发编程指南</h2>
+		  <p>[美] 杜飞（Duffy J.） 著；聂雪军 等 译 </p>
+		  <p>提到次数 24</p>
+		  <p>《Windows并发编程指南》详尽地介绍了如何在开发软件时高效地使用并发和硬件并行，以及如何设计、实现和维护大型的，主要以Windows平台上的C#和C++等语言编写的并发程序。</p>
+　　      <p>《Windows并发编程指南》为应用程序、系统以及库等的开发人员在多核处理器上编写高效、安全的代码提供必要的工具和技术指导。这不仅对于那些存在内在并发性的领域（如服务器应用、计算密集的图像处理、金融分析、数值模拟以及AI算法等）来说是很重要的，而且对于一些可以通过并行来获得加速的领域（如数学库、排序算法、报告生成、XML处理以及流式处理算法等）来说同样是重要的。</p>
+	　　  <p>《Windows并发编程指南》主要包括四部分：第一部分从高层视角介绍并发的一些基本概念；第兰部分重点介绍一些重要的平台功能、内部工作机制以及API细节等；第三部分介绍在编写并发软件时一些常见的编程模式、最优方法、算法和数据结构等；第四部分介绍在编写并发程序时需要注意的一些系统性的架构和流程方面的问题。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZRE10WBiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTA10dWBEdS0IJRmted3kFKmsYU2FCZQZ%2BC2BQeVctYzpTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MQBBYDVxhrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxYPUxhfCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20756991">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/window-internal.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>深入解析Windows操作系统</h2>
+		  <p>马克.拉希诺维奇（Mark E.Russinovich） 等 著；潘爱民 译  </p>
+		  <p>提到次数 13</p>
+		  <p>本书是著名的操作系统内核专家Mark Russinovich和David Solomon、Allen Ionescu撰写的关于Windows操作系统原理的全新版著作， 全面深入地阐述了Windows操作系统的整体结构及内部工作细节。 本书针对Windows 7、 Windows Server 2008 R2做了全面更新，通过许多练习实验让你直接感受到Windows的内部行为。另外，本书还介绍了一些高级诊断技术，以便使系统运行得更加平稳和高校。无论你是开发人员还是系统管理员，都可以在本书中找到一些关键的、有关体系结构方面的知识，从而更好地做系统设计、调试，以及性能优化。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgJWHl4RBSJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIXBFAeXxIdS0IJRmt9YEJ8DH0CV2JFcRVCUldHRHQqTAtlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MRAxoCVBJrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBxECUB9cCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20680892">当当</a></p>
+		  </div>
+	</div>
+	
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/essential-com.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Essential Com</h2>
+		  <p>Don Box & Charlie Kind... 著 </p>
+		  <p>提到次数 12</p>
+		  <p>Offering a distinctive approach, this book will teach readers not only how to use COM but how to think in COM. COM can greatly improve the efficiency of applications, but COM fluency is a difficult task. The book is a top resource for developers who need to make the transition from superficial understanding to deep knowledge.</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://item.jd.com/1098650902.html">京东</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/window-via-cplusplus.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Windows核心编程（第5版） </h2>
+		  <p>杰夫瑞（Jeffrey Richter） 等 著  </p>
+		  <p>提到次数 10</p>
+		  <p>无论是Windows编程新手，还是完全用本机代码来编程或通过P/Invoke来调用，NET Framework未提供的API的老手，都会发现《Windows核心编程》的价值。</p>
+　　	  <p>——Mark Russinovich，《深入解析Windows操作系统》作者</p>
+	　　  <p>要想在Windows编程方面更上一层楼，迟早都需要好阅读并领会《Windows核心编程》的内容。</p>
+	　　  <p>——Francis Glassborow，C/C++用户协会前主席</p>
+	　　  <p>搞Windows程序设计有两方面的资源是不可或缺的：一是MSDN，另一个便是《Windows核心编程》。</p>
+	　　  <p>——侯捷，著名技术作家</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZTE1wSCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTAV0cXBwdS0IJRmtCdhRwBUEMT2JOBBVJABUHaF0HRDBlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MRBhYOUhhrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxQPUhxSCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20351565">当当</a></p>
+		  </div>
+	</div>
+	
+	
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

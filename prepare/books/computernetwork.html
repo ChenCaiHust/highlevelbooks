@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/tcpip-protocal-first.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>TCP/IP详解 卷1：协议（原书第2版） </h2>
+		  <p>[美] 凯文R.福尔（Kevin R. Fall） 著；吴英，张玉，许昱玮 译；吴功宜 校 </p>
+		  <p>提到次数 19</p>
+		  <p>《TCP/IP详解》是已故网络专家、著名技术作家W. Richard Stevens的传世之作，内容详尽且极具权威，被誉为TCP/IP领域的不朽名著。</p>
+	　　  <p>本书是《TCP/IP详解》第1卷的第2版，主要讲述TCP/IP协议，结合大量实例讲述TCP/IP协议族的定义原因，以及在各种不同的操作系统中的应用及工作方式。第2版在保留Stevens卓越的知识体系和写作风格的基础上，新加入的作者Kevin R. Fall结合其作为TCP/IP协议研究领域领导者的尖端经验来更新本书，反映了最新的协议和最佳的实践方法。首先，他介绍了TCP/IP的核心目标和体系结构概念，展示了它们如何能连接不同的网络和支持多个服务同时运行。接着，他详细解释了IPv4和IPv6网络中的互联网地址。然后，他采用自底向上的方式介绍TCP/IP的结构和功能：从链路层协议（如Ethernet和Wi-Fi），经网络层、传输层到应用层。</p>
+	　　  <p>书中依次全面介绍了ARP、DHCP、NAT、防火墙、ICMPv4/ICMPv6、广播、组播、UDP、DNS等，并详细介绍了可靠传输和TCP，包括连接管理、超时、重传、交互式数据流和拥塞控制。此外，还介绍了安全和加密的基础知识，阐述了当前用于保护安全和隐私的重要协议，包括EAP、IPsec、TLS、DNSSEC和DKIM。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEg9SHFgdBSJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIaAFIYUxIdS0IJRmtydVVPIXs4bmBLdU9uCx1xEXUASCJ1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1IXAhEHURNrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVChUAVhNcCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23989588">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/computer-networks.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>计算机网络（第5版） </h2>
+		  <p>[美] 特南鲍姆，[美] 韦瑟罗尔 著；严伟，潘爱民 译 </p>
+		  <p>提到次数 6</p>
+		  <p>《计算机网络（第5版）》是国内外使用最广泛、专业的计算机网络经典教材。全书按照网络协议模型自下而上（物理层、数据链路层、介质访问控制层、网络层、传输层和应用层）有系统地介绍了计算机网络的基本原理，并结合Internet给出了大量的协议实例。在讲述网络各层次内容的同时，还与时俱进地引入了全新的网络技术，包括无线网络、3G蜂窝网络、RFID与传感器网络、内容分发与P2P网络、流媒体传输与IP语音，以及延迟容忍网络等。另外，本书针对当前网络应用中日益突出的安全问题，用了一整章的篇幅对计算机网络的安全性进行了深入讨论，而且把相关内容与全新网络技术结合起来阐述。</p>
+　　      <p>《计算机网络（第5版）》的适用对象非常广泛。由于本书的重点立足于计算机网络的基本原理，同时兼顾了Internet体系结构与TCP/IP协议等内容，因此对于学习计算机网络课程的本科生和研究生，本书都是的教材或教学参考书。本书每章后面给出了大量练习题，有助于教师根据教学目的酌情安排课后练习。此外，本书对于从事网络相关技术研究和网络应用开发的广大科研工作者也具有重要的参考价值。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEw9WHVgXACJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMaBFMYWRcdS0IJRmtICxpTVmxcUmETdS1MAGVJS2E2SwZ1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1IXABoCUx1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUChEBVhlZCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22610008">当当</a></p>
+		  </div>
+	</div>
+	
+	
+	
+</div>
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

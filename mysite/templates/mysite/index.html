@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block books %}
+	{% for book in booksList %}
+	{% static "img/" as picPath %}
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+			<img src="{{ picPath }}{{ book.pictureName }}" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+			<h2>{{ book.name }}</h2>
+			<p>{{ book.authur }}</p>
+			<p> 提到次数 {{ book.mentionedTimes }}</p>
+			{% for line in book.introduction %}
+				<p>{{ line }}</p>
+			{% endfor %}
+			<p class="get-amazon pull-left">
+				<a class="btn btn-warning" target="_blank" href="{{ book.jd }}">京东</a>
+				{% if book.dangdang != "" %}
+				<a class="btn btn-warning" target="_blank" href="{{ book.dangdang }}">当当</a>
+				{% endif %}
+				
+			</p>
+		</div>
+	</div>
+	{% endfor %}
+{% endblock %}

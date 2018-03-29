@@ -1,0 +1,48 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.get-amazon {
+  padding-top: 20px;
+}
+
+.get-amazon >a{
+	margin-right: 5px;
+}
+
+.book-title {
+  color: #333;
+}
+
+
+.book-nav > .active > a {
+  color: #555;
+  background-color: #e7e7e7;
+}
+
+.book-nav > li > a {
+  color: #777;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+} 
+
+.book-nav > li {
+   float: left;
+   position: relative;
+   display: block;
+}
+
+.book-nav {
+  float: left;
+  margin: 0;
+}
+
+.top-pad {
+  padding-top:30px;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/sql-antipatterns.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>SQL反模式</h2>
+		  <p>(美) Bill Karwin</p>
+		  <p>提到次数 61</p>
+		  <p>《sql反模式》是一本广受好评的sql 图书。它介绍了如何避免在sql 的使用和开发中陷入一些常见却经常被忽略的误区。它通过讲述各种具体的案例，以及开发人员和使用人员在面对这些案例时经常采用的错误解决方案，来介绍如何识别、利用这些陷阱，以及面对问题时正确的解决手段。另外，本书还涉及了sql的各级范式和针对它们的正确理解。</p>
+		  <p>《sql反模式》适合sql 数据库开发人员与管理人员阅读。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEw5XE10WAiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMbBV0dWBUdS0IJRmtcRmYHF0BFSmFtcQgfW2EKEBkBRCxDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH14dBhsAXBlrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUCxAPUxhbCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22506160">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/refactorying-database.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>数据库重构</h2>
+		  <p>[加拿大] 安布勒（Ambler·S·W），[美] 塞得拉吉（Sadalage·P·J） 著；王海鹏 译  </p>
+		  <p>提到次数 31</p>
+		  <p>本书首次专门讨论数据库重构，向数据专业人员展示了如何运用重构、测试驱动及其他敏捷技术进行演进式数据库开发。书中通过许多实际例子，详细说明了数据库重构的过程、策略以及部署。</p>
+		  <p>本书前第5章介绍了演进式数据库开发的基本思想和技术，后6章详细描述了每一类重构，包括结构、数据质量、参照完整性、架构、方法的重构；另外还描述了不属于重构范畴的转换技术。</p>
+		  <p>书中的示例代码是用Java、Hibernate和Oracle代码编写的，代码都很简单，读者可毫无困难地将它们转换成C#、C++或Visual Basic代码。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwVRH1sTByJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMQA1EbXRAdS0IJRmtoRHd4CV47C2FLWxNHWE1mQn4UYTtlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1wUBxcGURxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUABYDVR1eCltXWwg%3D">京东</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/database-system-concept.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>数据库系统概念（原书第6版） </h2>
+		  <p>[美] 弗里奇，[美] 达姆 著；姚军 译  </p>
+		  <p>提到次数 22</p>
+		  <p>《数据库系统概念（原书第6版）》是经典的数据库系统教科书《Database System Concepts》的新修订版，全面介绍数据库系统的各种知识，透彻阐释数据库管理的基本概念。本书内容丰富，不仅讨论了关系数据模型和关系语言、数据库设计过程、关系数据库理论、数据库应用设计和开发、数据存储结构、数据存取技术、查询优化方法、事务处理系统和并发控制、故障恢复技术、数据仓库和数据挖掘，而且对性能调整、性能评测标准、数据库应用测试和标准化、空间和地理数据、时间数据、多媒体数据、移动和个人数据库管理以及事务处理监控器、事务工作流、电子商务、高性能事务系统、实时事务系统和持续长时间的事务等高级应用主题进行了广泛讨论。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEw9RHlgSAiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMaA1AYXBUdS0IJRmtiQltPKXAjYWFkZSccXGgYQXMhS1llDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1IUCxQPVRlrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUChYCVhxbCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22632572">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/high-performace-mysql.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>高性能MySQL（第3版） </h2>
+		  <p>Baron Schwartz，Peter Zaitsev，Vadim Tkachenko 著；宁海元，周振兴，彭立勋 等 译 </p>
+		  <p>提到次数 16</p>
+		  <p>《高性能MySQL（第3版）》是MySQL 领域的经典之作，拥有广泛的影响力。第3 版更新了大量的内容，不但涵盖了MySQL5.5版本的新特性，也讲述了关于固态盘、高可扩展性设计和云计算环境下的数据库相关的新内容，原有的基准测试和性能优化部分也做了大量的扩展和补充。全书共分为16章和6 个附录，内容涵盖MySQL架构和历史，基准测试和性能剖析，数据库软硬件性能优化，复制、备份和恢复，高可用与高可扩展性，以及云端的MySQL和MySQL相关工具等方面的内容。每一章都是相对独立的主题，读者可以有选择性地单独阅读。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgRWGlkdACJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIRBFQZUxcdS0IJRmthBnlGAxoMYGcTVxMaDVRLelEreh51Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1IVAhAHXBtrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVAREGVxNZCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23214590">当当</a></p>
+		  </div>
+	</div>
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/the-art-of-sql.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>SQL语言艺术 </h2>
+		  <p>[美] 法禾，[美] 罗伯森 著；温昱，靳向阳 译 </p>
+		  <p>提到次数 10</p>
+		  <p>《SQL语言艺术》的作者St6phane Faroult借用《孙子兵法》的智慧处理SQL性能方面的问题。开发数据库应用好比一场战役，设计即战略，而每次数据库访问就是与敌军在战术上的对决。</p>
+	　　  <p>Stephane对SQL性能问题的论述，视角独特，一丝不苟。如何才能更好地使用SQL?本书结合一线实践的案例，强调了：</p>
+　　	  <p>应从最开始就综合设计数据库和应用的性能。“只强调某个最重要方面的设计是错误的”。</p>
+	  　　<p>应避免只考虑单个SQL语句。“关注总的目标，SQL语句再好也挽救不了糟糕的处理流程”。</p>
+	　　  <p>必须明白为哪些字段建立索引、为何建立索引。“索引过多是设计不确定的表现”。</p>
+　　	  <p>Stephane还对你的实际工作提出了具体建议。九种SQL经典查询方案，以及对其性能影响的讨论，非常便于实践。书中有一章专门讨论树状结构，可帮助你解决层次结构数据的问题。另外，当你必须基于别人的数据库设计进行工作时，“精于计谋：挽救响应时间”这一章会助你成功。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZSHF0VBiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTAFIdWxEdS0IJRmtBdGpUBx4ZEGBRdT1nXUAKF3lWXBNlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1IVBhAPVRhrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxUAUxtfCltXWwg%3D">京东</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/sql-server2008-queryperformance.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>SQL Server 2008查询性能优化</h2>
+		  <p>[美] 弗里奇，[美] 达姆 著；姚军 译 </p>
+		  <p>提到次数 9</p>
+		  <p>《SQL Server 2008查询性能优化》通过大量实例，详细介绍了SQL Server数据库系统优化的各种方法和技巧。内容涵盖了数据库应用系统中各种性能瓶颈的表现形式及其发生的根源和解决方法，从硬件瓶颈到查询、索引设计以及数据库管理等，贯穿了数据库系统知识的各个方面。最后以一个实际的工作负载将所有技巧联系起来，并且提供了“宝典”式的最佳实践列表。</p>
+		  <p>《SQL Server 2008查询性能优化》适合于关心数据库应用系统性能的开发人员和数据库管理人员阅读。通过阅读《SQL Server 2008查询性能优化》，不仅可以学习到数据库性能管理的许多知识和技巧，还有助于养成良好的编程习惯，为实现高性能的数据库应用系统打下基础。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwVRHlkQBCJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMQA1AZXhMdS0IJRmthGElbU3gaSGJZUx5OMEF3QgImeh9lDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1IVCxYEXBJrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUABYCVx5dCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20899980">当当</a></p>
+		  </div>
+	</div>
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

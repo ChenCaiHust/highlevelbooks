@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/unix-network-programming.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>UNIX网络编程 卷1 套接字联网API（第3版）</h2>
+		  <p>[美] W.Richard Stevens，[美] Bill Fenner，[美] Andrew M. Rudoff 著 </p>
+		  <p>提到次数 47</p>
+		  <p>《UNIX网络编程 卷1 套接字联网API（第3版）》是一部传世之作！网络编程专家Bill Fenner和Andrew M. Rudoff应邀执笔，对W. Richard Stevens的经典作品进行修订。书中吸纳了近几年网络技术的发展，增添了IPv6、SCTP协议和密钥管理套接字等内容，深入讨论了关键标准、实现和技术。</p>
+	　　  <p>书中的所有示例都是在UNIX系统上测试通过的真实的、可运行的代码，继承了Stevens一直强调的理念：“学习网络编程的方法就是下载这些程序，对其进行修改和改进。只有这样实际编写代码才能深入理解有关概念和方法。”读者可以从本书网站下载这些示例的源代码。</p>
+	　　  <p>本书为UNIX网络编程提供全面的指导，是网络研究和开发人员公认的参考书，无论网络编程的初学者还是网络专家都会大受裨益。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgFWEl0QAiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIUBFwdXhUdS0IJRmsVZ21cJ2QNcGFTZVBjLG9SaX8gTVhTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18TBxMOUhJrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBBEOUx5bCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20866025">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/thelinuxprogramminginterface.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Linux UNIX系统编程手册</h2>
+		  <p>[德] Michael Kerrisk 著；孙剑，许从年，董健 等 译 </p>
+		  <p>提到次数 14</p>
+		  <p>Linux/UNIX系统编程接口专业巨著，无出其右；涵盖500多个系统调用和库函数；示例清晰完整，解释巨细靡遗；涵盖当前UNIX标准（POSI X.1-2001/SUS v3和POSI X.1-2008/SUS v4）；众多业内专家人士联袂推荐；Linux/UNIX开发人员的案头必备，注定成为新的经典。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgVcGV0SACJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIQDlcdXBcdS0IJRmtCYUxUPnA8aWFyT0sFOGl3FmUDaVx1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MXARsCUBtrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVABsFUxxZCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23399180">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/understand-linux-kernal.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>深入理解LINUX内核（第3版）</h2>
+		  <p>[美] 博韦，西斯特 著；陈莉君，张琼声，张宏伟 译 </p>
+		  <p>提到次数 11</p>
+		  <p>为了透彻理解Linux的工作机理，以及为何它在各种系统上能顺畅运行，你需要深入到内核的心脏。cPu与外部世界的所有交互活动都是由内核处理的，哪些程序会分享处理器的时间，以什么样的顺序来分享。内核不遗余力地管理有限的内存，以使数以千计的进程有效地共享系统资源。内核还精心组织数据传送，使得cPu不再受限于慢速硬盘。</p>
+　　	  <p>《深入理解Linux内核》第三版将引领你畅游内核中用到的主要数据结构、算法和编程技巧。如果你的确想了解计算机内部的实现机理，那么作者透过现象探寻本质，提供了颇有价值的深入分析。本书针对具体的Intel平台，讨论了其重要特征，逐行剖析了相关的代码片段。但是，本书涵盖的内容不仅仅局限于代码的机理，还解释了Linux运作方式的理论支撑。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwdUGlgXBCJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMSBlQYWRMdS0IJRmsXRVB%2FPWkAXGdtcQBZDWwFbQVPSR9DDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MXBBEPVRxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAhMGVhldCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20046247">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/unix-programming-environment.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>UNIX环境高级编程（第3版）</h2>
+		  <p>[美] W. Richard Stevens，[美] Stephen A. Rago 著；戚正伟，张亚英，尤晋元 译 </p>
+		  <p>提到次数 10</p>
+		  <p>为了透彻理解Linux的工作机理，以及为何它在各种系统上能顺畅运行，你需要深入到内核的心脏。cPu与外部世界的所有交互活动都是由内核处理的，哪些程序会分享处理器的时间，以什么样的顺序来分享。内核不遗余力地管理有限的内存，以使数以千计的进程有效地共享系统资源。内核还精心组织数据传送，使得cPu不再受限于慢速硬盘。</p>
+　　	  <p>《UNIX环境高级编程（第3版）》是被誉为UNIX编程“圣经”的Advanced Programming in the UNIX Environment一书的第3版。在本书第2版出版后的8年中，UNIX行业发生了巨大的变化，特别是影响UNIX编程接口的有关标准变化很大。本书在保持前一版风格的基础上，根据新的标准对内容进行了修订和增补，反映了新的技术发展。书中除了介绍UNIX文件和目录、标准I/O库、系统数据文件和信息、进程环境、进程控制、进程关系、信号、线程、线程控制、守护进程、各种I/O、进程间通信、网络IPC、伪终端等方面的内容，还在此基础上介绍了众多应用实例，包括如何创建数据库函数库以及如何与网络打印机通信等。此外，还在附录中给出了函数原型和部分习题的答案。</p>
+　　	  <p>《UNIX环境高级编程（第3版）》概念清晰，阐述精辟，对于所有层次UNIX/Linux程序员都是一本不可或缺的参考书。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgJSE1wdByJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIXAF0cUxAdS0IJRmtAUmhuEl0QTWIXVzwdD0FdZUMhEz1lDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MXChsAVBtrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBxUPUhNeCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23481078">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/linux-kernal-development.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Linux内核设计与实现（原书第3版） </h2>
+		  <p>[美] Robert Love 著；陈莉君，康华 译  </p>
+		  <p>提到次数 10</p>
+		  <p>《Linux内核设计与实现（原书第3版）》详细描述了Linux内核的设计与实现。内核代码的编写者、开发者以及程序开发人员都可以通过阅读《Linux内核设计与实现（原书第3版）》受益，他们可以更好理解操作系统原理，并将其应用在自己的编码中以提高效率和生产率。</p>
+	　　  <p>《Linux内核设计与实现（原书第3版）》详细描述了Linux内核的主要子系统和特点，包括Linux内核的设计、实现和接口。从理论到实践涵盖了Linux内核的方方面面，可以满足读者的各种兴趣和需求。</p>
+	　　  <p>作者Robert Love是一位Linux内核核心开发人员，他分享了在开发Linux2.6内核过程中颇具价值的知识和经验《Linux内核设计与实现（原书第3版）》的主题包括进程管理、进程调度、时间管理和定时器、系统调用接口、内存寻址、内存管理和页缓存、VFS、内核同步、移植性相关的问题以及调试技术。同时《Linux内核设计与实现（原书第3版）》也涵盖了Linux2.6内核中颇具特色的内容，包括CFS调度程序、抢占式内核、块I/O层以及I/O调度程序。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwBSHlMRACJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMVAFATXxcdS0IJRmsQQ3ZRFhoJT2JLYRNGGVFDeVhcRiZDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MQARcCUh5rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUBRUCXR9ZCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D21065276">当当</a></p>
+		  </div>
+	</div>
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

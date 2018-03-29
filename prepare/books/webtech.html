@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/regular-expressions.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>精通正则表达式（第3版）</h2>
+		  <p>Jeffrey E.F.Friedl 著；余晟 译 </p>
+		  <p>提到次数 79</p>
+		  <p>《精通正则表达式》是系统学习正则表达式的唯一最权威著作。任何时候，任何地方，只要提到正则表达式著作，人们都会提到这本书。该书质量之高，声誉之盛，使得几乎没有人企图挑战它的地位，从而在正则表达式图书领域形成了独特的“一夫当关”的局面，称其为正则表达式圣经，绝对当之无愧。</p>
+		  <p> ——《程序员》杂志技术主编孟岩</p>
+		  <p> “如果你的工作需要用到正则表达式（即便你已经有本很不错的关于开发语言的书），我还是要向你强烈推荐本书。”</p>
+		  <p>——Dr.Chris Brown,Linux Format</p>
+		  <p>“毫不夸张地说，《精通正则表达式（第3版）》是学习该工具的不二选择，也是每个程序员必备的杰作。”</p>
+		  <p>——Jason Menard.Java Ranch</p>
+		  <p>“所有关于正则表达式的书中，找不到比这更好的了。”</p>
+		  <p>——Zak Greant,Planet PHP</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZSHF8cBCJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTAFIfUhMdS0IJRmtMY0dXF0gHTGdSVx1gCVQAEG4jQg11Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH14SABUHURxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxUAURJdCltXWwg%3D">京东</a>   <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22851836">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/pro-javascript-design-patterns.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>深入PHP：面向对象、模式与实践（第3版）</h2>
+		  <p>[美] Matt Zandstra 著；陈浩 等 译  </p>
+		  <p>提到次数 32</p>
+		  <p>《深入PHP：面向对象、模式与实践（第3版）》是PHP专家经典力作的新版本。书中主要介绍了如何使用面向对象技术和设计模式编写稳定的、可维护的代码，如何使用Subversion管理多个开发人员，如何使用Phing和PEAR进行构建和安装，以及将构建和测试过程自动化的策略，包括持续集成。</p>
+	 　　 <p>《深入PHP：面向对象、模式与实践（第3版）》适合中高级PHP程序员阅读。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwFdHlkRAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMUD1AZXxQdS0IJRmtsSxpiFG0mamEQYRZiDkpJQEI2RhB1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10XABYPXRxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUBBoCVx9aCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22459608">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/php-and-mysql-web-development.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>PHP和MySQL Web开发（原书第4版）</h2>
+		  <p>[澳] Luke Welling，[澳] Luke Welling 著；武欣 等 译 </p>
+		  <p>提到次数 28</p>
+		  <p>本书将PHP开发与MySQL应用相结合，分别对PHP和MySQL做了深入浅出的分析，不仅介绍PHP和MySQL的一般概念，而且对PHP和MySQL的Web应用做了较全面的阐述，并包括几个经典且实用的例子。</p>
+		  <p>本书是第4版，经过了全面的更新、重写和扩展，包括PHP 5.3*改进的特性（例如，更好的错误和异常处理），MySQL的存储过程和存储引擎，Ajax技术与Web 2.0以及Web应用需要注意的安全问题。</p>
+		  <p>PHP平IEIMySQL是非常流行的开源技术，它们非常适合快速开发数据库驱动的Web应用。PHP是一种功能强大的脚本语言，专门用于快速创建高性能的Web应用，而MySQL则是一个快速而又可靠的数据库，它能很好地与PHP集成，适用于基于互联网的动态应用。</p>
+		  <p>本书介绍了如何使用这些工具创建高效和交互式的Web应用。它清晰地介绍了PHP语言的基础，解释了如何设置和使用MySQL数据，以及如何使用PHP与数据库和服务器进行交互。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZRE1oQBCJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTA10aXhMdS0IJRmtFcmdPC34jTGJBZQpmImVbTEEQcyhTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10XBBIGUhxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxYPVB5dCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20546846">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/programming-collectie-interlligence.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>集体智慧编程</h2>
+		  <p>[美] Toby Segaran（托比·西格兰） 著；莫映，王开福 译 </p>
+		  <p>提到次数 19</p>
+		  <p>《集体智慧编程》以机器学习与计算统计为主题背景，专门讲述如何挖掘和分析Web上的数据和资源，如何分析用户体验、市场营销、个人品味等诸多信息，并得出有用的结论，通过复杂的算法来从Web网站获取、收集并分析用户的数据和反馈信息，以便创造新的用户价值和商业价值。《集体智慧编程》内容翔实，包括协作过滤技术（实现关联产品推荐功能）、集群数据分析（在大规模数据集中发掘相似的数据子集）、搜索引擎核心技术（爬虫、索引、查询引擎、PageRank算法等）、搜索海量信息并进行分析统计得出结论的优化算法、贝叶斯过滤技术（垃圾邮件过滤、文本过滤）、用决策树技术实现预测和决策建模功能、社交网络的信息匹配技术、机器学习和人工智能应用等。</p>
+	　　  <p>《集体智慧编程》是Web开发者、架构师、应用工程师等的优佳选择。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgBSHV8VASJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIVAFMfWxYdS0IJRmtoShJzCHpBaWIRBD5LH0hpG1QXUAlDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10XChoAXBJrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBRUBURtYCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23664260">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/restful-web-apis.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>RESTful Web APIs中文版 </h2>
+		  <p>[美] Leonard Richardson，[美] Mike Amundsen 著；赵震一，李哲 译 </p>
+		  <p>提到次数 18</p>
+		  <p>近年来，REST的流行导致了各种“RESTful”API的巨大增长，但是这些API却错失了很多架构的好处。通过这本实用指南，你将可以学习到如何设计可用的，并能随着时间不断进化的REST API。通过专注于跨多种领域的解决方案，本书向你展示了该如何使用那些为世界上成功的分布式计算系统——万维网而设计的工具，从而来 创建强大且安全的应用。你将探索REST背后的概念，学习多种可用于创建基于超媒体API的策略，并在本书一步步的指导下整合你所学到的所有内容，从而去设计RESTful的web API。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgJTE1MVCiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIXAV0TWx0dS0IJRmtFXWB5E2BcSmB1YSNrOBR%2BZwQrXRBTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10QABUPVRNrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBxQPXRtTCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23493088">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/dont-make-me-think.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>点石成金：访客至上的Web和移动可用性设计秘笈（原书第3版） </h2>
+		  <p>[美] 克鲁格（Steve Krug） 著；蒋芳 译  </p>
+		  <p>提到次数 15</p>
+		  <p>原书第三版全新上市！</p>
+		　<p>第11届Jolt生产效率大奖获奖图书，被Web设计人员奉为圭臬的经典之作</p>
+		　<p>第2版全球销量超过35万册，网站的网页设计类图书的销量排行佼佼者</p>
+	 　　 <p>访客至上的Web和可用性设计秘笈 </p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgNcE1gWBiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIWDl0YWBEdS0IJRmt3V1JlS3srVmd1BDFYOXwGeWxReC5TDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10QBBMOXB1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBhsPVhhfCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D1213708127">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/hight-preformace-web-sites.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>高性能网站建设指南：前端工程师技能精髓</h2>
+		  <p>[美] Steve Souders（史蒂夫.桑德斯） 著；刘彦博 译 </p>
+		  <p>提到次数 14</p>
+		  <p>网站做得再好，如果慢到无法访问也是毫无意义的。在Google，网页呈现速度慢500 毫秒将丢失20%的流量；在Yahoo!，慢400 毫秒将丢失5%~9%的流量；在，慢100 毫秒将丢失1%的交易量……反之，网站速度越快，越有利于用户汇聚、流量增长及交易量的上升。而优化网站性能的方法有很多，前端优化就是一条省时省力的捷径。</p>
+	  　　<p>如果我们可以将后端响应时间缩短一半，整体响应时间只能减少5%~10%。而如果关注前端性能，同样是将其响应时间减少一半，则整体响应时间可以减少40%~45%。</p>
+　　      <p>《高性能网站建设指南：前端工程师技能精髓》告诉我们从“前端”入手改善网站性能简单明了。在对后端大动干戈之前，按照本书的14条“军规”，从前端入手改善性能，会有意想不到的惊人效果。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgBcElsdBiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIVDlwbUxEdS0IJRmsWVhR5UGYOVGJscQxELW4FewBWHwN1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10RARcAUBhrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBRsOVRNfCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23698388">当当</a></p>
+		  </div>
+	</div>
+	
+	
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

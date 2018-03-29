@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/framework-design-guidelines.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>.NET设计规范：约定、惯用法与模式</h2>
+		  <p>[美] 克瓦林纳 等 著；葛子昂 译 </p>
+		  <p>提到次数 96</p>
+		  <p>数千名微软精锐开发人员的经验和智慧，最终浓缩在这本设计规范之中。与上一版相比，书中新增了许多评注，解释了相应规范的背景和历史，从中你能聆听到微软技术大师Anders Hejlsberg、Jeffrey Richter和Paul Vick等的声音，读来令人兴味盎然。<p>
+		  <p>本书虽然是针对.NET平台上的框架设计的，但对其他平台的框架设计同样具有借鉴意义。新版根据.NET Framework 3.0和3.5的新特性做了全面更新，主要关注的是直接影响框架可编程能力的设计问题。遵守这些规范对于使用.NET Framework创建高质量的应用程序至关重要。</p>
+		  <p>微软.N ET Framework设计组的智慧结晶，洞悉.NET技术内幕，.N ET开发者的必备图书。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwdXE18VAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMSBV0fWxQdS0IJRmtdQUpnNH8MHGB7eQBvDVZEaGJXX19lDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBRE1gdBBAAVRxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAhAPURtaCltXWwg%3D">京东</a>   <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20764776">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/aspnet-mvc5.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>精通 ASP.NET MVC 5</h2>
+		  <p>[美] Adam Freeman 著；张成彬，徐燕萍，李萍，林逸 译 </p>
+		  <p>提到次数 60</p>
+		  <p>ASP.NET MVC 5框架是微软ASP.NET Web平台的新进展。它提供了高生产率的编程模型，结合ASP.NET的全部优势，促成更整洁的代码架构、测试驱动开发和强大的可扩展性。 本书涵盖ASP.NET MVC 5的所有开发优势技术，包括用C#属性定义路由技术及重写过滤器技术等。且构建MVC应用程序的用户体验也有本质上的改进。其中书里也专一讲解了用新Visual Studio 2013创建MVC应用程序时的技术和技巧。本书包括完整的开发工具介绍以及对代码进行辅助编译和调试的技术。 本书还涉及流行的Bootstrap JavaScript库，该库现已被纳入到MVC 5之中，为开发人员提供更广泛的多平台CSS和HTML5选项，而不必像以前那样去加载大量的第三方库。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEg5RG1kRAiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIbA1UZXxUdS0IJRmtRWG8OI2MlTWcUX1N6HBVqcGBXT1l1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18UABcGUxtrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVCxYHVx9bCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23841846">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/CLR-via-C.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>CLR via C#（第4版）</h2>
+		  <p>[美] Jeffrey Richter 著；周靖 译 </p>
+		  <p>提到次数 58</p>
+		  <p>作者Jeffrey Richter，全球知名的.NET和Windows大师和专业，经典畅销书《Windows核心编程》和《CLR》系列的作者，其著作曾因其专业性和影响力荣获中国书刊业发行协会“全行业畅销书品种”称号。</P>
+		  <p>根据Microsoft .NET Framework 4.5和Visual C# 2012全面更新 </p>
+		  <p>聚焦于Framework Class Library（FCL）的核心类型</p>
+		  <p>清楚阐述多核编程、泛型、线程处理等基本概念</p>
+		  <p>由浅入深，透视CLR和.NET精髓，知其然</p>
+		  <p>鞭辟入里，探究CLR和.NET机理，知其所以然</p>
+		  <p>深入探究并掌握CLR（公共语言运行时）、C#和.NET开发，其实很简单</p>
+		  <p>享有全球盛誉的编程专家Jeffrey Richter，微软.NET团队长达十几年的资深技术顾问，在本书中以简洁流畅的语言将其数十年的经验和心得娓娓道来，独到而深刻的见解，深思熟虑之后形成的洞见，这些都让人醍醐灌顶，为日后构建健壮、可靠和响应快的应用程序与组件奠定良好的基础。</p>
+		  <p>《CLR via C#（第4版）》针对.NET Framework 4.5和多核编程进行了全面更新和修订，是帮助读者深入探索和掌握公共语言运行时、C#和.NET开发的重要参考。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgNTElMUBCJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIWAVwTWhMdS0IJRmtUeG51PksTC2IUWwh%2BBH53cgQKGFp1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18VAxMOXRxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBhQOXRpdCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23599642">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/dependency-injection.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Dependency Injection in .NET</h2>
+		  <p>Mark Seemann</p>
+		  <p>提到次数 33</p>
+		  <p>"Dependency Injection in .NET" is a comprehensive guide that introduces DI to .NET developers. It covers core concepts and patterns, and introduces important DI frameworks, such as StructureMap, Windsor, and Spring.NET.</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://www.amazon.com/dp/1935182501">亚马逊</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/effective-cshap.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Effective C#</h2>
+		  <p>[美] 瓦格纳 著 </p>
+		  <p>提到次数 16</p>
+		  <p>Bill Wagner is co-founder of and .NET consultant for SRT Solutions.A nationally recognized independent expert on .NET,he has been a regular contributor to ASP.NET Pro Magazine,Visual Studio Magazine,and the .NET Insight newsletter.In addition to being a Microsoft Regional Director ,he is also active in the Southeast Michigan.NET User Group and the Ann Arbor Computing Society.He is author of The C# Core Language Little Black Book.</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://item.jd.com/10132093.html">京东</a></p>
+		  </div>
+	</div>
+	
+</div>
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

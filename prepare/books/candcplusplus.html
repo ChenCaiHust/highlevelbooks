@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/the-c-programming-language.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C程序设计语言（第2版·新版） </h2>
+		  <p>[美] Brian W.Kernighan（布莱恩·克尼汉），[美] Dennis M.Ritchie（丹尼斯·里奇） 著；徐宝文，李志 译 </p>
+		  <p>提到次数 85</p>
+		  <p>在计算机发展的历史上,没有哪一种程序设计语言像C语言这样应用如此广泛。本书原著即为C语言的设计者之一Dennis M.Ritchie和著名的计算机科学家Brian W.Kernighan合著的一本介绍C语言的权威经典著作。我们现在见到的大量论述C语言程序设计的教材和专著均以此书为蓝本。原著第1版中介绍的C语言成为后来广泛使用的C语言版本——标准C的基础。人们熟知的“hello,world”程序就是由本书首次引入的,现在,这一程序已经成为所有程序设计语言入门的第一课。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEQdTGl0XCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQESAVQdWRwdS0IJRmtJC0ZUDBlabWF7Q1VnJH4LUQYsWRlTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH14RARcBUx1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsWAhQGUxlSCltXWwg%3D">京东</a>   <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D8766529">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/effective-cplusplus.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Effective C++：改善程序与设计的55个具体做法</h2>
+		  <p>[美] 梅耶（Scott Meyers） 著；侯捷 译 </p>
+		  <p>提到次数 52</p>
+		  <p>这是一本轻薄短小高密度的“专家经验累积”。</P>
+
+		  <p>如果你声称自己是个C++程序员之前，那你一定得读过这本书。</p>
+		  <p>认真地读完这本书，普通的C++程序员也可以摇身一变成为专家级C++程序员。</p>
+		  <p>这是作者智慧的再一次提炼和升华，你没理由还在原地踏步，赶紧阅读这本书，迎头赶上吧。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwVdGVkVCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMQD1cZWxwdS0IJRmt1SWUHIUwyTGJBfVVbQWlGQXALHBt1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18VCxcEUhxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUABoFVxtSCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D21000966">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/Modern-Cplusplus-design.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C++设计新思维</h2>
+		  <p>亚力山德雷斯库 著 </p>
+		  <p>提到次数 38</p>
+		  <p>本书提出了泛型组件的概念，这是一种可重用的设计模板，可用来产生规范的C++代码。泛型组件还提供了从设计到代码的无缝转换，生成更能表达设计者最初意图的代码，并支持设计模式的重用——只需改动少量的代码。本书是一部重要的著作，全面地展示了泛型模式或模式模板——一各在C++中创建可扩展设计的功能强大的新方法。这种方法结合了模板与模式，也许很多人觉得不可能，但这却是事实！如果你的工作涉及C++设计和编程，那么你不应该错过本书。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwdcGlsUCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMSDlQbWhwdS0IJRmthQEJTT1gNaGdlAC5ABkJHd10%2BTiZ1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH18dABUGVx1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAhsGVRpSCltXWwg%3D">京东</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/cplusplus-programming-language.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C++程序设计语言（第1-3部分）（原书第4版）</h2>
+		  <p>[美] 本贾尼·斯特劳斯特鲁普 著；王刚 译 </p>
+		  <p>提到次数 30</p>
+		  <p>《C++程序设计语言》（原书第4版）是C++领域经典的参考书，介绍了C++11的各项新特性和新功能。全书共分四部分。部分（第1~5章）是引言，包括C++的背景知识，C++语言及其标准库的简要介绍；第二部分（第6~15章）介绍C++的内置类型和基本特性，以及如何用它们构造程序；第三部分（第16~29章）介绍C++的抽象机制及如何用这些机制编写面向对象程序和泛型程序；第四部分（第30~44章）概述标准库并讨论一些兼容性问题。由于篇幅问题，原书中文版分两册出版，分别对应原书的至三部分和第四部分。这一册为至三部分。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEg9cHFkcByJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIaDlIZUhAdS0IJRmsTWW5EJh8EQWcRYVRQH05BWls0GRtTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1wQBxIHVh1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVChsAVxJeCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23999167">当当</a></p></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/large-scale-cplusplus-software-design.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>大规模C++程序设计</h2>
+		  <p>[美] John Lakos 著；刘冰，张林 译；周尚波 校 </p>
+		  <p>提到次数 26</p>
+		  <p>《C/C++技术丛书：大规模C++程序设计》由软件开发大师JohnLakos亲笔撰写，是C++程序设计领域最有影响力的著作之一。作者结合自己多年从事大规模C++项目的开发经验，详细介绍了大规模C++程序设计涉及的一系列概念、理论、原理、设计规则及编程规范，并通过大量真实世界的编程示例，深入解析物理设计和逻辑设计的一些新概念和新理论，阐明了在从事大型和超大型C++软件工程时应该遵循的一系列设计规则，论述了设计具有易测试、易维护和可重用等特性的高质量大规模C++软件产品的方法。</p>
+		  <p>《C/C++技术丛书：大规模C++程序设计》分为三部分，共11章。一部分（第1~2章）介绍一些C++语言开发的基础知识、通用设计模式，以及C++项目开发中应该遵守的一些基本软件设计原则；第二部分（第3~7章）全面介绍了优秀物理设计的基本概念，设计的基本单元组件、物理层次结构、系统分层技术、隔离技术等，详细阐述了如何利用合理的物理设计层次结构，通过隔离、增量和分层测试以更低的成本获得更高的可靠性，如何利用分层技术降低系统内的链接依赖性，如何利用隔离技术减轻或消除编译时依赖性，并讲解了如何将这些技术应用到超大型系统中；第三部分（第8~10章）讲解了逻辑设计问题，包括组件总体设计需要考虑的重要因素，详细阐述了创建一个组件的功能接口所涉及的问题，以及在大型项目环境中实现对象的特定组织问题。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgNSHV8TBSJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIWAFMfXRIdS0IJRmtVYxVhF1Mhc2FRZSweK31cVXwGfiFDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10RChYFUBJrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBhUBUR1cCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23591214">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/deepth-cplusplus-object-model.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>深度探索C++对象模型 </h2>
+		  <p>[美] Stanley B.Lippman（斯坦利·B.李普曼） 著；侯捷 译 </p>
+		  <p>提到次数 25</p>
+		  <p>作者Lippman参与设计了全世界套C++编译程序cfront，这本书就是一位伟大的C++编译程序设计者向你阐述他如何处理各种explicit（明确出现于C++程序代码中）和implicit（隐藏于程序代码背后）的C++语意。</p>
+	　　  <p>《深度探索C++对象模型》专注于C++面向对象程序设计的底层机制，包括结构式语意、临时性对象的生成、封装、继承，以及虚拟——虚拟函数和虚拟继承。这《深度探索C++对象模型》让你知道：一旦你能够了解底层实现模型，你的程序代码将获得多么大的效率。Lippman澄清了那些关于C++额外负荷与复杂度的各种错误信息和迷思，但也指出其中某些成本和利益交换确实存在。他阐述了各式各样的实现模型，指出它们的进化之道及其本质因素。书中涵盖了C++对象模型的语意暗示，并指出这个模型是如何影响你的程序的。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEw9UE10cCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMaBl0dUhwdS0IJRmtlZUFnAUxffmBOYVxrK0gCTVQLTCNDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10SAREEURlrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUChMPUxJSCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22588609">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/cplusplus-concurrency-inaction.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C++并发编程实战 </h2>
+		  <p>[美] Anthony Williams（威廉姆斯） 著；周全，梁娟娟，宋真真，许敏 译 </p>
+		  <p>提到次数 24</p>
+		  <p>《C++并发编程实战》是一本基于C++11新标准的并发和多线程编程深度指南。内容包括从std::thread、std::mutex、std::future和std::async等基础类的使用，到内存模型和原子操作、基于锁和无锁数据结构的构建，再扩展到并行算法、线程管理，最后还介绍了多线程代码的测试工作。本书的附录部分还对C++11新语言特性中与多线程相关的项目进行了简要的介绍，并提供了C++11线程库的完整参考。</p>
+　　	  <p>《C++并发编程实战》适合于需要深入了解C++多线程开发的读者，以及使用C++进行各类软件开发的开发人员、测试人员。对于使用第三方线程库的读者，也可以从本书后面的章节中了解到相关的指引和技巧。同时，本书还可以作为C++11线程库的参考工具书。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgBdG1IRACJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIVD1USXxcdS0IJRmtFe05yFXo7Z2BJBAZnKUx5dWJTEwVlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10SBRMBUBprEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBRoHXB9ZCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23701378">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/cplusplus-coding-strandards.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C++编程规范：101条规则、准则与最佳实践</h2>
+		  <p>[加] 赫布·萨特（Herb Sutter），[罗] 安德烈亚历克斯安德莱斯库（Andrei Alexandrescu） 著；刘基诚 译 </p>
+		  <p>提到次数 22</p>
+		  <p>在《C++编程规范：101条规则、准则与实践》中，两位知名的C++专家将全球C++界20年的集体智慧和经验凝结成一套编程规范。这些规范可以作为每一个开发团队制定实际开发规范的基础，更是每一位C++程序员应该遵循的行事准则。书中对每一条规范都给出了描述，并辅以实例说明；从类型定义到错误处理，都给出了C++实践，即使使用C++多年的程序员也会从本书中受益匪浅。</p>
+　　      <p>《C++编程规范：101条规则、准则与实践》适合于各层次C++程序员使用，也可作为高等院校C++课程的教学参考书。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEg5dHFsTAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIbD1IbXRQdS0IJRmt1a1BSXG0Id2JiXzZHO2BQEg4IUwx1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10TAhsDVh9rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVCxoAVR1aCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23928866">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/Effective-STL.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>传世经典书丛·Effective STL中文版：50条有效使用STL的经验</h2>
+		  <p>[美] Scott Meyers 著；潘爱民，陈铭，邹开红 译 </p>
+		  <p>提到次数 22</p>
+		  <p>C++标准模板库（STL）是革命性的，但是要想学会并用好却并不容易。 Scott Meyers（Effective C++与More effective c++的作者）揭示了专家 总结的一些关键规则，既有专家们总是采用的做法，也有专家们总是避免的做法。 通过这些规则，STL程序员可以限度地使用STL。在讲述50条指导原则时，《传世经典书丛·Effective STL中文版：50条有效使用STL的经验（双色）》提供了透彻的分析和深刻的实例，以让读者学到要做什么，什么时候该这样做，以及为什么要这样做。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgRRGV4UCiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIRA1ceWh0dS0IJRmtufHYEKnATaWJPBAtYQUJ5VkM%2BBVl1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10TBxQHXR9rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVARYFUBpTCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23247743">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/accelerated-cplusplus.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Accelerated C++ 中文版</h2>
+		  <p>[美] 克尼格（Andrew Kenig） 等 著；张明 译 </p>
+		  <p>提到次数 19</p>
+		  <p>《Accelerated C++ 中文版》系统介绍C++程序设计，是美国斯坦福大学的经典教材。从使用C++标准库中的高级抽象开始，使读者很快掌握编程方法。每一章都有很经典独特的例子以及非常到位的讲解，覆盖了C++更多领域的内容，从标准库容器、泛型算法的使用，到类的设计、泛型算法的设计，本书都进行了详细的讲解。</p>
+		  <p>本书作者有丰富的C++开发、研究和教学经验，内容由浅入深，讲解精炼巧妙。无论是刚入门的新手还是有经验的C++开发人员都能从本书中受益。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgZUHVIWCiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQITBlMSWB0dS0IJRmtLA0ZEEQUjTmISU1xbIH17YkQxARhDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10TChQOVR9rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVAxMBXBhTCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22774915">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/cexper.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C 专家编程</h2>
+		  <p>[美] 林登（LinDen P.V.D） 著；徐波 译 </p>
+		  <p>提到次数 15</p>
+		  <p>《C专家编程》可以帮助有一定经验的C程序员成为C编程方面的专家，对于具备相当的C语言基础的程序员，《C专家编程》可以帮助他们站在C的高度了解和学习C++。书本撷取了几十个实例，细致、深入地讲解了C的历史、语言特性、声明、数组、指针、链接、运行时、内存以及分析了如何进一步学习C++等问题。《C专家编程》是一本ANSIC编程语言的高级读本。它适用于已经编写过C程序的人，以及那些想迅速获取一些专家观点和技巧的人。</p>
+　　	  <p>专家级的C编程指南展示C程序员的编程技巧。</p>
+		　<p>即使你读过AndyKoneig的《C陷阱与缺陷》，你还是应该看看PeterVanDerLinden的书。我想，他们两人的书称都应该千方百计的搞到，如获至宝地捧读。如果我是你的上司，这是必须的要求。 </p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZSGFwRBiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTAFYcXxEdS0IJRmtIRXtlHVobamFhRzREU1MCE2AcZC1DDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10cABcGUhtrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxUEUh9fCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20105286">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/cplusplus-primer.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C++ Primer中文版</h2>
+		  <p>[美] 李普曼等 著；王刚等 译 </p>
+		  <p>提到次数 15</p>
+		  <p>这本久负盛名的C++经典教程，时隔八年之久，终于迎来重大升级。除令全球无数程序员从中受益，甚至为之迷醉的――C++大师Stanley B. Lippman的丰富实践经验，C++标准委员会原负责人Josée Lajoie对C++标准的深入理解，以及C++先驱Barbara E. Moo在C++教学方面的真知灼见外，更是基于全新的C++11标准进行了全面而有效的内容更新。**难能可贵的是，书中所有示例均全部采用C++11标准改写，这在经典升级版中极其罕见――充分体现了C++语言的重大进展及其全面实践。书中丰富的教学辅助内容、醒目的知识点提示，以及精心组织的编程示范，让这本书在C++领域的权威地位更加不可动摇。</p>
+		  <p>无论是初学者入门，或是中高级程序员提升使用，本书均为不容置疑的优选。 </p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgVUHFsXCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIQBlIbWRwdS0IJRmtWfBZwD0krVmESR1NnIFZ7QENTQwFDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10cBBMDXRNrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVABMAVRlSCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23321562">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/cplusplus-templates.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>C++ Templates中文版</h2>
+		  <p>作者:(美)范德沃德,(美)约祖蒂斯</p>
+		  <p>提到次数 14</p>
+		  <p>《C++ Templates中文版》是C++模板编程的完全指南，旨在通过基本概念、常用技巧和应用实例三方面的有用资料，为读者打下C++模板知识的坚实基础。　　全书共22章。第1章全面介绍了《C++ Templates中文版》的内容结构和相关情况。第1部分(第2～7章)以教程的风格介绍了模板的基本概念，第2部分(第8～13章)阐述了模板的语言细节，第3部分(第14～18章)介绍了C++模板所支持的基本设计技术，第4部分(第19～22章)深入探讨了各种使用模板的普通应用程序。附录A和附录B分别为一处定义原则和重载解析的相关资料。　　《C++ Templates中文版》适合C++模板技术的初学者阅读，也可供有一定编程经验的C++程序员参考。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgRVHFMQAiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIRB1ITXhUdS0IJRmtQa0UBU308F2FvZVBIOmZ%2BF2VXYDt1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10dABMCVRtrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVARIAXR5bCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D1132837106">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/more-effective-cplusplus.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>More Effective C++：35个改善编程与设计的有效方法</h2>
+		  <p>[美] Scott Meyers 著；侯捷 译 </p>
+		  <p>提到次数 13</p>
+		  <p>《More Effective C :35个改善编程与设计的有效方法(中文版)》主要内容包括：继effective c 之后，scott meyers 于1996 推出这本“续集”。条款变得比较少，页数倒是多了一些，原因是这次选材比“第一集”更高阶，尤其是第5 章。meyers 将此章命名为技术（techniques），并明白告诉你，其中都是一些patterns，例如virtual constructors，smart pointers，reference counting，proxy classes，double dispatching……这一章的每个条款篇幅都达15~30 页之多，实在让人有“山重水复疑无路，柳暗花明又一村”之叹。</p>
+		  <p>虽然出版年代稍嫌久远，但本书并没有第2版，原因是当其出版之时（1996），C Standard已经几乎定案，这本《More Effective C :35个改善编程与设计的有效方法(中文版)》即依当时的标准草案而写，其与现今的C 标准规范几乎相同。而且可能变化的几个弹性之处，Meyers也都有所说明与提示。读者可以登录作者提供的网址，看看上下两集的勘误与讨论（数量之多，令人惊恐。幸好多是技术讨论或文字斟酌，并没有什么重大误失）。 </p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwJcHloWAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMXDlAaWBQdS0IJRmtyZ2cEEx87fGBWZTYeElF3TgIWTBBlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10dBRoBVRtrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUBxsCVBhaCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D21020857">当当</a></p>
+		  </div>
+	</div>
+	
+</div>
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/java-concurrency-in-practice.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Java并发编程实战</h2>
+		  <p>[美] Brian Goetz 等 著；童云兰 等 译 </p>
+		  <p>提到次数 88</p>
+		  <p>本书深入浅出地介绍了Java线程和并发，是一本完美的Java并发参考手册。书中从并发性和线程安全性的基本概念出发，介绍了如何使用类库提供的基本并发构建块，用于避免并发危险、构造线程安全的类及验证线程安全的规则，如何将小的线程安全类组合成更大的线程安全类，如何利用线程来提高并发应用程序的吞吐量，如何识别可并行执行的任务，如何提高单线程子系统的响应性，如何确保并发程序执行预期任务，如何提高并发代码的性能和可伸缩性等内容，最后介绍了一些高级主题，如显式锁、原子变量、非阻塞算法以及如何开发自定义的同步工具类。</p>
+		  <p>第16届Jolt大奖提名图书，Java并发编程必读佳作。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEw9WGFgRAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMaBFYYXxQdS0IJRmt3VWJ5VxJZYGAIcVFvD3ZHQQcrezJlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH14QBhAAXBNrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUChEEVh9aCltXWwg%3D">京东</a>   <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22606835">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/effective-java.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Effective Java中文版（第2版）</h2>
+		  <p>[美] 布洛克（Joshua Bloch） 著；杨春花，俞黎敏 译 </p>
+		  <p>提到次数 76</p>
+		  <p>“我很希望10年前就拥有这本书。可能有人认为我不需要任何Java方面的书籍，但是我需要这本书。” </p>
+		  <p>——Java之父James Gosling </p>
+		  <p>编码平添乐趣，程序更加完美，高效成为习惯，工作如此轻松。</p>
+		  <p>你是否正在寻找一本能够更加深入地了解Java编程语言的书，以便编写出更清晰、更正确、更健壮且更易于重用的代码。不用找了！本书为我们带来了共78条程序员必备的经验法则，针对你每天都会遇到的编程问题提出了有效、实用的解决方案。</p>
+		  <p>这本经典Jolt获奖作品实属众望所归。作者对新版进行了彻底的更新。涵盖了自第l版之后所引入的Java E5和Java SE 6的特性，同时开发了新的设计模式和语言习惯用法，介绍了如何充分利用从泛型到枚举、从注解到自动装箱的各种特性。</p>
+		  <p>书中的每一章都包含几个“条目”，以简洁的形式呈现，自成独立的短文，它们提出了具体的建议，对于Java平台精妙之处的独到见解，以及优秀的代码范例。每个条目的综合描述和解释都阐明了应该怎么做，不应该怎么做，以及为什么。</p>
+		  <p>《Effective Java中文版（第2版）》的内容包括：</p>
+		  <p>全新的泛型、枚举、注解、自动装箱、fof-each循环、可变参数、并发机制，等等。</p>
+		  <p>经典主题的全新技术和实践，包括对象．类、类库、方法和序列化。</p>
+		  <p>如何避免Java编程语言中常被误解的细微之处：陷阱和缺陷。</p>
+		  <p>重点关注Java语言本身和基本的类库及其扩展java.langjava.utiljava.util.concurrent和java.io。</p>		  
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZRElMUASJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTA1wTWhYdS0IJRmtFVnRzK0cyYmJxQx1GBGdgZFMSb1tTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH14TABIDUh1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxYOXRpYCltXWwg%3D">京东</a>   <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20459091">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/head-first-java.jpg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Head First Java（中文版 第2版）</h2>
+		  <p>[美] 塞若（Sierra K.），[美] 贝茨（Bates B.） 著；O'Reilly Taiwan公司 译  </p>
+		  <p>提到次数 22</p>
+		  <p>第14届Jolt大奖的参赛图书。</p>
+		  <p>《Head First Java》使纸质图书成为了你所见过的接近GUI的事物，室学习Java成为一种风尚。</p>
+		  <p>Java技术无所不在——如果你是一个软件开发者且没有学习过Java，那么本书是您不二的选择。</p>	  
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwdUGlsdAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMSBlQbUxQdS0IJRmtudmdOBmxZXGdtZVZBDxwFCGdVTg1DDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1wdABcFXR1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAhMGVRNaCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D9265169">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/java-complete-reference.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Java 8编程参考官方教程（第9版）</h2>
+		  <p>[美] Herbert Schildt 著；战晓苏，江凌 译 </p>
+		  <p>提到次数 5</p>
+		  <p>《Java 8编程参考官方教程（第9版）》是对Java语言的全面指导，描述了它的语法、关键字以及基本的编程原则，另外还介绍了Java API库的重要部分。本书分为5部分，每部分关注Java开发环境的不同方面。</p>
+	  　　<p>第Ⅰ部分是对Java语言的深入辅导。该部分从基础知识开始讲解，包括数据类型、运算符、控制语句以及类等。然后本部分介绍继承、包、接口、异常处理以及多线程。之后介绍注解、枚举、自动装箱以及泛型等内容。本部分还介绍了I/O以及applet。本部分最后一章介绍了lambda表达式。刚才介绍过，lambda表达式是Java SE 8中重要的新增特性。</p>
+	　　  <p>第Ⅱ部分介绍Java标准API库的关键内容。本部分的主题包括字符串、I/O、网络、标准实用工具、集合框架、applet、AWT、事件处理、图像、并发编程(包括Fork/Join框架)、正则表达式和新增的流库。</p>
+	 　　 <p>第Ⅲ部分用三章内容介绍Swing。</p>
+		　<p>第IV部分用三章内容介绍JavaFX。</p>
+		  <p>第V部分包含两章，这两章展示了Java的实际应用。本部分的第37章介绍了Java Bean，第38章介绍了servlet。</p>  
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgBVE1sdBiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIVB10bUxEdS0IJRmsLX0JDHUMoHWBuTwlzMm5eFAAnbidlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10UAxYOUx1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBRIPVRNfCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23633883">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/core-java-one.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Java核心技术 卷I：基础知识（原书第9版）</h2>
+		  <p>[美] 凯 S.霍斯特曼（Cay S.Horstmann） 著  </p>
+		  <p>提到次数 5</p>
+		  <p>Java领域有影响力和价值的著作之一，与《Java编程思想》齐名，10余年全球畅销不衰.</p>
+	　　  <p>根据Java SE 8全面更新，系统全面讲解Java语言的核心概念、语法、重要特性和开发方法，包含大量案例，实践性强 </p>
+	　　  <p>一直以来，《Java核心技术》都被认为是面向高级程序员的经典教程和参考书，它内容翔实、客观准确，不拖泥带水，是想为实际应用编写健壮Java代码的程序员的*选。如今，本版进行了全面更新， 以反映近年来人们翘首以待、变革*大的Java版本（Java SE 8）的内容。这一版经过重写，并重新组织，全面阐释了新的Java SE 8特性、惯用法和*佳实践，其中包含数百个示例程序，所有这些代码都经过精心设计，不仅易于理解，也很容易实际应用。</p>
+　　	  <p>本书为专业程序员解决实际问题而写，可以帮助你深入了解Java语言和库。在卷I中，Horstmann主要强调基本语言概念和现代用户界面编程基础，深入介绍了从Java面向对象编程到泛型、集合、lambda表达式、Swing UI设计以及并发和函数式编程的*新方法等内容。 </p>  
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgVQH10WAiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIQAlEdWBUdS0IJRmt0cGZ9JnggY2BzYRZPRXFqUXFQaDJTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10VBRoAVBlrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVABcDUxhbCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D1072492928">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/core-java-two.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Java核心技术（卷2）：高级特性（原书第9版）</h2>
+		  <p>[美] Cay S. Horstmann，[美] Gary Cornell 著；陈昊鹏，王浩，姚建平 译 </p>
+		  <p>提到次数 5</p>
+		  <p>Java领域最有影响力和价值的著作之一，由拥有20多年教学与研究经验的资深Java技术专家撰写（获Jolt大奖），与《Java编程思想》齐名，10余年全球畅销不衰，广受好评。第9版根据Java SE 7全面更新，同时修正了第8版中的不足，系统全面讲解Java语言的核心概念、语法、重要特性和开发方法。本书全面覆盖Java技术的高级主题，包括流与文件、XML、网络、数据库编程、国际化等，详细描述了图形与GUI编程，还涉及安全、远程方法、注解处理、本地方法等。本书对Java技术的阐述精确到位，叙述方式深入浅出，并包含大量示例代码，能够帮助读者充分理解Java语言并灵活应用。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgJUE10UBCJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIXBl0dWhMdS0IJRmt8Xm90Hmw6TWBoQwZQGXJ1TkFTbyR1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10VABIEVR1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBxMPUxpdCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23424306">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/think-in-java.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>Java编程思想（第4版）</h2>
+		  <p>[美] Bruce Eckel 著；陈昊鹏 译 </p>
+		  <p>提到次数 5</p>
+		  <p>《计算机科学丛书：Java编程思想（第4版）》赢得了全球程序员的广泛赞誉，即使是晦涩的概念，在BruceEckel的文字亲和力和小而直接的编程示例面前也会化解于无形。从Java的基础语法到高级特性（深入的面向对象概念、多线程、自动项目构建、单元测试和调试等），本书都能逐步指导你轻松掌握。</p>
+　　	  <p>从《计算机科学丛书：Java编程思想（第4版）》获得的各项大奖以及来自世界各地的读者评论中，不难看出这是一本经典之作。本书的作者拥有多年教学经验，对C、C++以及Java语言都有独到、深入的见解，以通俗易懂及小而直接的示例解释了一个个晦涩抽象的概念。本书共22章，包括操作符、控制执行流程、访问权限控制、复用类、多态、接口、通过异常处理错误、字符串、泛型、数组、容器深入研究、JavaI/O系统、枚举类型、并发以及图形化用户界面等内容。这些丰富的内容，包含了Java语言基础语法以及高级特性，适合各个层次的Java程序员阅读，同时也是高等院校讲授面向对象程序设计语言以及Java语言的好教材和参考书。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZRElsSByJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTA1wbXBAdS0IJRmtCCwxsJx0iZmAQdQVdCGdhF1cQRjhTDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH10WARYHVhxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxYOVRxeCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D9317290">当当</a></p>
+		  </div>
+	</div>
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

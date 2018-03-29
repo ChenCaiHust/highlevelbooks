@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/javascripte-the-good-parts.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>JavaScript语言精粹</h2>
+		  <p>Douglas Crockford（道格拉斯·克罗克福德） 著；赵泽欣 等 译 </p>
+		  <p>提到次数 114</p>
+		  <p>JavaScript 曾是“世界上误解的语言”，因为它担负太多的特性，包括糟糕的交互和失败的设计，但随着Ajax 的到来，JavaScript“从受误解的编程语言演变为非常流行的语言”，这除了幸运之外，也证明了它其实是一门优秀的语言。Douglas Crockford 在本书中剥开了JavaScript 沾污的外衣，抽离出一个具有更好可靠性、可读性和可维护性的JavaScript 子集，让你看到一门优雅的、轻量级的和非常富有表现力的语言。作者从语法、对象、函数、继承、数组、正则表达式、方法、样式和优美的特性这9 个方面来呈现这门语言真正的精华部分，通过它们完全可以构建出优雅高效的代码。作者还通过附录列出了这门语言的毒瘤和糟粕部分，且告诉你如何避免它们。最后还介绍了JSLint，通过它的检验，能有效地保障我们的代码品质。</p>
+　　	  <p>《JavaScript语言精粹》是一本介绍JavaScript语言本质的专业书籍，值得任何正在或准备从事JavaScript 开发的人阅读，并且需要反复阅读。学习、理解、实践大师的思想，我们才可能站在巨人的肩上，才有机会超过大师，这本书就是开始。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgZdGlMSACJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQITD1QTXBcdS0IJRmsLRwgHB04DXmJXYVcSAHZLEEEpawhlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH14VBhIEURprEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVAxoGXRxZCltXWwg%3D">京东</a>   <a class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22872884">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/javascript-the-definitive-guide.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>JavaScript权威指南（第6版）</h2>
+		  <p>[美] David Flanagan 著；淘宝前端团队 译 </p>
+		  <p>提到次数 31</p>
+		  <p>经典的JavaScript犀牛书！第6版特别涵盖了HTML5和ECMAScript5！</p>
+	 　　 <p>经典的JavaScript工具书，从1996年以来，本书已经成为JavaScript程序员心中的《圣经》。</p>
+　　      <p>程序员学习核心JavaScript语言和由Web浏览器定义的JavaScript API的指南和综合参考手册。</p>
+　　      <p>第6版涵盖HTML5和ECMAScript 5。很多章节完全重写，以便与时俱进，紧跟当今的Web开发实践。本书新增章节描述了jQuery和服务器端JavaScript。 本书适合那些希望学习Web编程语言的初、中级程序员和希望精通JavaScript的程序员阅读。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEw9THl4XBSJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMaAVAeWRIdS0IJRmtsBQhADE0cXmAUABBMBl0KYh0VRB9DDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1wVAhABVB9rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUChQCUBlcCltXWwg%3D">京东</a>    <a class="btn btn-warning" class="btn btn-warning" class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22722790">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/javascript-patterns.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>JavaScript模式</h2>
+		  <p>[美] 斯托扬·斯特凡洛夫 著；陈新 译</p>
+		  <p>提到次数 15</p>
+		  <p>探索有用的习惯来编写高质量JavaScript代码，例如避免使用全局变量、使用单var声明等；</p>
+		  <p>学习为什么字面量表示模式是比构造函数更简洁的选择；</p>
+		  <p>探索在JavaScript中不同的定义函数的方法；</p>
+		  <p>创建越过基本模式对象的对象，基本模式对象通常使用对象字面量和构造函数</p>
+		  <p>学习在JavaScript中使用代码重用和继承的一些有效选择；</p>
+		  <p>学习常见设计模式（单体模式、工厂模式、装饰模式）在JavaScript中的方法；</p>
+		  <p>检视应用于特定客户端浏览器环境下的模式。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgZQHloTAyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQITAlAaXRQdS0IJRmtDcHFBU0VdbmJbWz4TA35REnosEiZlDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1wTABYAUBhrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVAxcCVB1aCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D22819430">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-3">
+		  <img src="img/pro-javascript-design-patterns.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>JavaScript设计模式 </h2>
+		  <p>[美] 哈梅斯，[美] 迪亚斯 著；谢廷晟 译 </p>
+		  <p>提到次数 11</p>
+		  <p>从这里开始，真正掌握JavaScript的精髓。</p>
+	　　  <p>Google和Yahoo专家联手揭秘世界顶尖公司的技术内幕</p>
+		　<p>Web应用取代桌面程序的时代已经到来！作为Web前端的核心技术，JavaScript的重要性不言而喻，它有望成为下一代统治性程序语言。但由于业界长期的误解和滥用，也有不少人仍然对此半信半疑。那么，JavaScript到底能否当此大任呢？　本书中，Google和Yahoo公司的两位资深Web专家对此给出了掷地有声的肯定回答。作者针对常见的开发任务，从YUI等实战代码中取材，提供了专家级的解决方案，不仅透彻剖析了JavaScript中的面向对象编程。而且深入探讨了如何用JavaScript实现以前只在服务器端应用的设计模式。如何根据实际场景选择恰当的设计模式，开发出高质量的企业级代码。本书充分证明：JavaScript不仅毫不逊色于其他高级语言，已经是一种成熟且强大的面向对象语言。而且还拥有Java和C++等语言不具备的面向未来的特性，因此更加灵活、更富于表现力。　无论是前端工程师-还是服务器端程序员，通过本书都将使自己的JavaScript功力提升到前所未有的高度。 </p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZSGVsWBiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTAFcbWBEdS0IJRmsTdURFKGgDcWFFACBnEnRGUlAqazN1Dh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBRE14WBBYDVBxrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxUFVRhfCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D1024138244">当当</a></p>
+		  </div>
+	</div>
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh" >
+  <head>
+	<base href="/" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>stackoverflow上提到最多的100本书</title>
+	
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/presentation.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+  </head>
+<body>
+
+
+	  <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div>
+            <ul class="nav book-nav">
+              <li class="active"><a  href="/">首页</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <ul class="nav book-nav">
+              <li><a href="#" onclick="scrollTo('1'); return false;">回到顶部</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ 
+<div class="container">
+
+	<div class="jumbotron" style="margin-top: 60px;" >
+	<h2>我们分析了<a href="https://stackoverflow.com/">stackoverflow</a>上超过5千万个问题及答案，得到了程序员提到最多的100本书（共约3760本）</h2>
+	<div class="row" style="padding-top:10px;">
+		<div class="col-sm-7">
+			<p>我们是如何做的？</p>
+			<ul>
+			  <li>从Stack Exchange Network上获取了用户问答数据转存文件(<a href="https://archive.org/details/stackexchange">点此</a>下载)</li>
+			  <li>从数据转存文件中提取了stackoverflow上的用户问题及回答</li>
+			  <li>找到所有的亚马逊链接并进行统计</li>
+			  <li>得到了程序员提到最多的100本书</li>
+			  <li>找到了对应的中文链接，方便你行动</li>
+			  <li>关注右侧公众号可收藏书单</li>
+			</ul>
+		</div>
+		<div class="col-sm-5">
+			<img src="img/erweima.jpg" class="img-responsive"></p>
+		</div>
+	</div></div>
+	
+	<div class="row" style="padding-top:10px;">
+          <div class="col-sm-12"><h3>标签</h3></div>
+    </div>
+    <div class="row" style="padding-top:10px;">
+		<div class="col-sm-12">
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/must.html">从业必备</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/javacript.html">JaveScript</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/java.html">Java</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/webtech.html">Web</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/candcplusplus.html">C/C++</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/design.html">设计模式</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/refactory.html">重构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/database.html">数据库</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/cshapandnettech.html">.Net</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/computernetwork.html">计算机网络</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/developmodel.html">开发模型</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwarearchtecre.html">软件架构</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/os.html">操作系统</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/ulinandlinux.html">Unix/Linux</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/windows.html">Windows</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/softwaredesign.html">软件设计</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/rebyandperl.html">Ruby/Perl</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/game.html">游戏</a>
+			
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/bigdata.html">大数据</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/imageprocessing.html">图像处理</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/algorithm.html">算法</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/applysicret.html">应用密码学</a>
+			<a class="btn btn-default btn-sm" style="margin:5px;"  href="/book/alwaysgoodbobks.html">同样是好书</a>
+		</div>
+	</div>
+	
+	<!-- page begin -->
+	<br />
+	
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/opencv.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>学习OpenCV（中文版）</h2>
+		  <p>[美] 布拉德斯基（Bradski G），[美] 克勒（Kaehler A） 著；于仕琪，刘瑞祯 译 </p>
+		  <p>提到次数 24</p>
+		  <p>计算机视觉是在图像处理的基础上发展起来的新兴学科。OpenCV是一个开源的计算机视觉库，是英特尔公司资助的两大图像处理利器之一。它为图像处理、模式识别、三维重建、物体跟踪、机器学习和线性代数提供了各种各样的算法。</p>
+　　 	  <p>本书由OpenCV发起人所写，站在一线开发人员的角度用通俗易懂的语言解释了OpenCV的缘起和计算机视觉基础结构，演示了如何用OpenCV和现有的自由代码为各种各样的机器进行编程，这些都有助于读者迅速入门并渐入佳境，兴趣盎然地深入探索计算机视觉领域。</p>
+	　　  <p>本书可作为信息处理、计算机、机器人、人工智能、遥感图像处理、认知神经科学等有关专业的高年级学生或研究生的教学用书，也可供相关领域的研究工作者参考。</p>
+		　<p>透过本书，您将置身于迅速发展的计算机视觉领域。本书由自由开源OpenCV的发起人所著，介绍了计算机视觉，并通过实例演示了如何快速生成这样的应用——能使计算机“看到”并根据由此获取的数据做出决策。</p>
+　　	  <p>计算机视觉无处不在，安全系统、制造检验系统、医学图像分析、无人机等都可以见到它的踪影。它与Google Map和Google Earth紧密结合，它检查LCD屏幕上的像素，它确保衬衫上的每个针脚都能完全缝合。OpenCV提供了一个简易好用的计算机视觉框架和一个丰富的库，后者包含500多个可实时运行视觉代码的函数。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwZcGlgdCyJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMTDlQYUxwdS0IJRmt0RlB%2BBUMkTWJ7cVZkD2pdZAcnYx9lDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MdABoAUB9rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUAxsGVhNSCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D20699366">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/opengl-es3.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>OpenGL ES 3.0编程指南（原书第2版） </h2>
+		  <p>Dan Ginsburg，Budi Purnomo，Dave Shreine 著；姚军 译 </p>
+		  <p>提到次数 14</p>
+		  <p>《OpenGL ES 3.0编程指南（原书第2版）》由资深OpenGL技术专家亲笔撰写，全面介绍OpenGL ES 3.0的各种特性及新增功能；</p>
+　　	  <p>通过大量已经编译和测试过的实例，详细讲解OpenGL ES 3.0中的应用程序接口（API）和图形管线，既涵盖简单图形的渲染方法，又深入介绍逐像素照明和粒子系统等高级渲染技术，并且包含大量有效使用API和硬件的实用技巧，为手持设备的各种高性能3D应用开发提供翔实指导。 </p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEgBRH1wdCiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQIVA1EcUx0dS0IJRmsQBHZGV2cPE2J1ZS9eOG9iSQ4qQ11lDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWH1MdBRsGUR1rEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsVBRYDUhNTCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D23655373">当当</a></p>
+		  </div>
+	</div>
+	
+	<div class="row" style="padding-top:20px;">
+		<div class="col-sm-3">
+		  <img src="img/digital-image-formattting.jpeg" class="img-responsive">
+		</div>
+		<div class="col-sm-9">
+		  <h2>数字图像处理（第3版） </h2>
+		  <p>阮秋琦 等 著 </p>
+		  <p>提到次数 11</p>
+		  <p>在数字图像处理领域，《数字图像处理（第3版）》作为主要教材已有30多年。这一版本是作者在前两版的基础上修订而成的，是前两版的发展与延续。除保留了前两版的大部分内容外，根据读者的反馈，作者在13个方面对本书进行了修订，新增了400多幅图像、200多幅图表及80多道习题，融入了近年来数字图像处理领域的重要进展，因而本书特色鲜明且与时俱进。《数字图像处理（第3版）》仍分为12章，即绪论、数字图像基础、灰度变换与空间滤波、频率域滤波、图像复原与重建、彩色图像处理、小波和多分辨率处理、图像压缩、形态学图像处理、图像分割、表示与描述、目标识别。</p>
+		  <p class="get-amazon pull-left"><a class="btn btn-warning" target="_blank" href="https://union-click.jd.com/jdc?e=0&p=AyIHZR5aEQISA1AYUyUCEwBRElwQCiJDCkMFSjJLQhBaUAscSkIBR0ROVw1VC0dFFQMVA1wcXh0dS0IJRmtxW3lRMXoFFGFVABVuJ0hcR1MwZVJDDh43XRJcFQYRA1McaxUDEwZXHlITBRM3ZRtaJVB83%2BOtg7CzDtP%2FlI6dlSIHVBhYFQMVBVwZaxUGEwBWHFoUBhcOURhrEjLFqdfP2JzagKKNscIlMiI3&t=W1dCFBBFC1pXUwkEAEAdQFkJBVsUBRYOUh5TCltXWwg%3D">京东</a>    <a class="btn btn-warning" target="_blank" href="http://union.dangdang.com/transfer.php?sys_id=1&ad_type=10&from=P-334314&backurl=http%3A%2F%2Fproduct.dangdang.com%2Fproduct.aspx%3Fproduct_id%3D21095911">当当</a></p>
+		  </div>
+	</div>
+	
+	
+	
+</div>
+
+<footer class="footer">
+	<div class="col-sm-6"> </div>
+		<div class="col-sm-6">
+			<p>浙ICP备17033673号-1</h2>
+		</div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
