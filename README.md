@@ -3,6 +3,8 @@
 
 项目网址：www.highlevelbooks.cn
 
+项目总结：https://github.com/ChenCaiHust/highlevelbooks/blob/master/summary.md
+
 # 本地运行
 ### 开发环境
 * python 2.7.3
@@ -14,5 +16,3 @@
 * cd highlevelbooks
 * python manage.py runserver
 * 浏览器中打开网站：localhost:8000
-
-# 项目总结
